@@ -9,6 +9,7 @@
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -25,10 +26,12 @@
     color: $title;
     padding-bottom: 1px;
     transition: all .3s;
+    //@extend %quicksand-400;
 
     &:hover {
       color: $accent;
       border-bottom: 1px solid $accent;
+      @extend %quicksand-500;
     }
   }
 
@@ -55,6 +58,13 @@
     height: 20px;
     border-radius: 50%;
     background-color: $accent;
+    top: -9px;
+    right: -14px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px
   }
 }
 

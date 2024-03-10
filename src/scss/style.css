@@ -1,4 +1,37 @@
 @import "normalize.css";
+.menu__list-link:hover, body {
+  font-family: "Quicksand-Medium", sans-serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Quicksand-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Quicksand-Regular"), url("../fonts/Quicksand-Regular.woff2") format("woff2"), url("../fonts/Quicksand-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quicksand-Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: local("Quicksand-Medium"), url("../fonts/Quicksand-Medium.woff2") format("woff2"), url("../fonts/Quicksand-Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Roboto-Regular"), url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Roboto-Bold"), url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-display: swap;
+}
 html {
   box-sizing: border-box;
 }
@@ -55,7 +88,6 @@ a {
 
 body {
   font-size: 16px;
-  font-size: 26px;
   color: #8d8d8d;
 }
 
@@ -69,6 +101,7 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu__list {
@@ -106,6 +139,13 @@ body {
   height: 20px;
   border-radius: 50%;
   background-color: #fe3e57;
+  top: -9px;
+  right: -14px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
