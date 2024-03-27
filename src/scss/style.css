@@ -144,7 +144,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.slick-track:before, .slick-track:after {
+.slick-track:before, .slick-trackafter {
   content: "";
   display: table;
 }
