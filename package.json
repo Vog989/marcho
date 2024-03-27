@@ -8,10 +8,13 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "browserslist": ["cover 99.5%"],
+  "browserslist": [
+    "cover 99.5%"
+  ],
   "devDependencies": {
     "autoprefixer": "^10.4.18",
     "sass": "^1.71.1",
+    "slick-carousel": "^1.8.1",
     "vite": "^5.1.4"
   },
   "dependencies": {
